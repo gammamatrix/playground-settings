@@ -23,9 +23,6 @@
     "require-dev": {
         "gammamatrix/playground-test": "dev-develop|dev-master|dev-feature/*|^73.0"
     },
-    "suggest": {
-        "gammamatrix/playground-admin-blade": "Provides a Blade UI to interact with the models provided in this package."
-    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
