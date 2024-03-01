@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<crap_result>
+  <project/>
+  <timestamp>2024-03-01 22:57:40</timestamp>
+  <stats>
+    <name>Method Crap Stats</name>
+    <methodCount>5</methodCount>
+    <crapMethodCount>0</crapMethodCount>
+    <crapLoad>0</crapLoad>
+    <totalCrap>14</totalCrap>
+    <crapMethodPercent>0</crapMethodPercent>
+  </stats>
+  <methods>
+    <method>
+      <package>Playground\Admin</package>
+      <className>Playground\Admin\ServiceProvider</className>
+      <methodName>boot</methodName>
+      <methodSignature>boot()</methodSignature>
+      <fullMethod>boot()</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin</package>
+      <className>Playground\Admin\ServiceProvider</className>
+      <methodName>register</methodName>
+      <methodSignature>register(): void</methodSignature>
+      <fullMethod>register(): void</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin</package>
+      <className>Playground\Admin\ServiceProvider</className>
+      <methodName>publishMigrations</methodName>
+      <methodSignature>publishMigrations(): void</methodSignature>
+      <fullMethod>publishMigrations(): void</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin</package>
+      <className>Playground\Admin\ServiceProvider</className>
+      <methodName>about</methodName>
+      <methodSignature>about(): void</methodSignature>
+      <fullMethod>about(): void</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin</package>
+      <className>Playground\Admin\ServiceProvider</className>
+      <methodName>version</methodName>
+      <methodSignature>version(): string</methodSignature>
+      <fullMethod>version(): string</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+  </methods>
+</crap_result>

@@ -1,0 +1,13 @@
+Command (Tests\Feature\Playground\Admin\Console\Commands\About\Command)
+ [x] Command about displays package information and succeed with code 0
+
+Model (Tests\Feature\Playground\Admin\Models\Setting\Model)
+ [x] Model instance
+ [x] Verify model relationships
+ [x] Factory create
+
+Model (Tests\Unit\Playground\Admin\Models\Setting\Model)
+ [x] Model instance
+ [x] Verify model relationships
+ [x] Model factory make
+

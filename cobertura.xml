@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="1" branch-rate="0" lines-covered="30" lines-valid="30" branches-covered="0" branches-valid="0" complexity="14" version="0.4" timestamp="1709333860">
+  <sources>
+    <source>/app/src</source>
+  </sources>
+  <packages>
+    <package name="Models/Setting.php" line-rate="0" branch-rate="0" complexity="0">
+      <classes>
+        <class name="Playground\Admin\Models\Setting" filename="Models/Setting.php" line-rate="0" branch-rate="0" complexity="0">
+          <methods/>
+          <lines/>
+        </class>
+      </classes>
+    </package>
+    <package name="ServiceProvider.php" line-rate="1" branch-rate="0" complexity="14">
+      <classes>
+        <class name="Playground\Admin\ServiceProvider" filename="ServiceProvider.php" line-rate="1" branch-rate="0" complexity="14">
+          <methods>
+            <method name="boot" signature="" line-rate="1" branch-rate="0" complexity="5">
+              <lines>
+                <line number="30" hits="7"/>
+                <line number="32" hits="7"/>
+                <line number="34" hits="7"/>
+                <line number="36" hits="7"/>
+                <line number="37" hits="7"/>
+                <line number="38" hits="7"/>
+                <line number="41" hits="7"/>
+                <line number="44" hits="7"/>
+                <line number="45" hits="6"/>
+                <line number="50" hits="7"/>
+              </lines>
+            </method>
+            <method name="register" signature="" line-rate="1" branch-rate="0" complexity="1">
+              <lines>
+                <line number="58" hits="7"/>
+                <line number="59" hits="7"/>
+                <line number="60" hits="7"/>
+                <line number="61" hits="7"/>
+              </lines>
+            </method>
+            <method name="publishMigrations" signature="" line-rate="1" branch-rate="0" complexity="2">
+              <lines>
+                <line number="69" hits="7"/>
+                <line number="71" hits="7"/>
+                <line number="72" hits="7"/>
+                <line number="73" hits="7"/>
+                <line number="74" hits="7"/>
+                <line number="77" hits="7"/>
+              </lines>
+            </method>
+            <method name="about" signature="" line-rate="1" branch-rate="0" complexity="5">
+              <lines>
+                <line number="82" hits="7"/>
+                <line number="83" hits="7"/>
+                <line number="85" hits="7"/>
+                <line number="87" hits="7"/>
+                <line number="89" hits="7"/>
+                <line number="90" hits="7"/>
+                <line number="91" hits="7"/>
+                <line number="92" hits="7"/>
+                <line number="93" hits="7"/>
+              </lines>
+            </method>
+            <method name="version" signature="" line-rate="1" branch-rate="0" complexity="1">
+              <lines>
+                <line number="98" hits="7"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="30" hits="7"/>
+            <line number="32" hits="7"/>
+            <line number="34" hits="7"/>
+            <line number="36" hits="7"/>
+            <line number="37" hits="7"/>
+            <line number="38" hits="7"/>
+            <line number="41" hits="7"/>
+            <line number="44" hits="7"/>
+            <line number="45" hits="6"/>
+            <line number="50" hits="7"/>
+            <line number="58" hits="7"/>
+            <line number="59" hits="7"/>
+            <line number="60" hits="7"/>
+            <line number="61" hits="7"/>
+            <line number="69" hits="7"/>
+            <line number="71" hits="7"/>
+            <line number="72" hits="7"/>
+            <line number="73" hits="7"/>
+            <line number="74" hits="7"/>
+            <line number="77" hits="7"/>
+            <line number="82" hits="7"/>
+            <line number="83" hits="7"/>
+            <line number="85" hits="7"/>
+            <line number="87" hits="7"/>
+            <line number="89" hits="7"/>
+            <line number="90" hits="7"/>
+            <line number="91" hits="7"/>
+            <line number="92" hits="7"/>
+            <line number="93" hits="7"/>
+            <line number="98" hits="7"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
