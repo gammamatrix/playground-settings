@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="/app/phpunit.xml.dist" tests="7" assertions="38" errors="0" failures="0" skipped="0" time="0.745634">
-    <testsuite name="Unit" tests="3" assertions="8" errors="0" failures="0" skipped="0" time="0.275070">
-      <testsuite name="Tests\Unit\Playground\Admin\Models\Setting\ModelTest" file="/app/tests/Unit/Models/Setting/ModelTest.php" tests="3" assertions="8" errors="0" failures="0" skipped="0" time="0.275070">
-        <testcase name="test_model_instance" file="/app/vendor/gammamatrix/playground-test/src/Unit/Models/ModelCase.php" line="100" class="Tests\Unit\Playground\Admin\Models\Setting\ModelTest" classname="Tests.Unit.Playground.Admin.Models.Setting.ModelTest" assertions="1" time="0.211846"/>
-        <testcase name="test_verify_model_relationships" file="/app/vendor/gammamatrix/playground-test/src/Unit/Models/ModelCase.php" line="261" class="Tests\Unit\Playground\Admin\Models\Setting\ModelTest" classname="Tests.Unit.Playground.Admin.Models.Setting.ModelTest" assertions="4" time="0.033732"/>
-        <testcase name="test_model_factory_make" file="/app/vendor/gammamatrix/playground-test/src/Unit/Models/ModelCase.php" line="277" class="Tests\Unit\Playground\Admin\Models\Setting\ModelTest" classname="Tests.Unit.Playground.Admin.Models.Setting.ModelTest" assertions="3" time="0.029492"/>
+  <testsuite name="/app/phpunit.xml.dist" tests="7" assertions="38" errors="0" failures="0" skipped="0" time="0.770273">
+    <testsuite name="Unit" tests="3" assertions="8" errors="0" failures="0" skipped="0" time="0.277562">
+      <testsuite name="Tests\Unit\Playground\Admin\Models\Setting\ModelTest" file="/app/tests/Unit/Models/Setting/ModelTest.php" tests="3" assertions="8" errors="0" failures="0" skipped="0" time="0.277562">
+        <testcase name="test_model_instance" file="/app/vendor/gammamatrix/playground-test/src/Unit/Models/ModelCase.php" line="100" class="Tests\Unit\Playground\Admin\Models\Setting\ModelTest" classname="Tests.Unit.Playground.Admin.Models.Setting.ModelTest" assertions="1" time="0.213544"/>
+        <testcase name="test_verify_model_relationships" file="/app/vendor/gammamatrix/playground-test/src/Unit/Models/ModelCase.php" line="261" class="Tests\Unit\Playground\Admin\Models\Setting\ModelTest" classname="Tests.Unit.Playground.Admin.Models.Setting.ModelTest" assertions="4" time="0.034281"/>
+        <testcase name="test_model_factory_make" file="/app/vendor/gammamatrix/playground-test/src/Unit/Models/ModelCase.php" line="277" class="Tests\Unit\Playground\Admin\Models\Setting\ModelTest" classname="Tests.Unit.Playground.Admin.Models.Setting.ModelTest" assertions="3" time="0.029737"/>
       </testsuite>
     </testsuite>
-    <testsuite name="Feature" tests="4" assertions="30" errors="0" failures="0" skipped="0" time="0.470564">
-      <testsuite name="Tests\Feature\Playground\Admin\Console\Commands\About\CommandTest" file="/app/tests/Feature/Console/Commands/About/CommandTest.php" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.146919">
-        <testcase name="test_command_about_displays_package_information_and_succeed_with_code_0" file="/app/tests/Feature/Console/Commands/About/CommandTest.php" line="28" class="Tests\Feature\Playground\Admin\Console\Commands\About\CommandTest" classname="Tests.Feature.Playground.Admin.Console.Commands.About.CommandTest" assertions="2" time="0.146919"/>
+    <testsuite name="Feature" tests="4" assertions="30" errors="0" failures="0" skipped="0" time="0.492711">
+      <testsuite name="Tests\Feature\Playground\Admin\Console\Commands\About\CommandTest" file="/app/tests/Feature/Console/Commands/About/CommandTest.php" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.148952">
+        <testcase name="test_command_about_displays_package_information_and_succeed_with_code_0" file="/app/tests/Feature/Console/Commands/About/CommandTest.php" line="28" class="Tests\Feature\Playground\Admin\Console\Commands\About\CommandTest" classname="Tests.Feature.Playground.Admin.Console.Commands.About.CommandTest" assertions="2" time="0.148952"/>
       </testsuite>
-      <testsuite name="Tests\Feature\Playground\Admin\Models\Setting\ModelTest" file="/app/tests/Feature/Models/Setting/ModelTest.php" tests="3" assertions="28" errors="0" failures="0" skipped="0" time="0.323646">
-        <testcase name="test_model_instance" file="/app/vendor/gammamatrix/playground-test/src/Feature/Models/ModelCase.php" line="106" class="Tests\Feature\Playground\Admin\Models\Setting\ModelTest" classname="Tests.Feature.Playground.Admin.Models.Setting.ModelTest" assertions="1" time="0.083277"/>
-        <testcase name="test_verify_model_relationships" file="/app/vendor/gammamatrix/playground-test/src/Feature/Models/ModelCase.php" line="525" class="Tests\Feature\Playground\Admin\Models\Setting\ModelTest" classname="Tests.Feature.Playground.Admin.Models.Setting.ModelTest" assertions="24" time="0.157914"/>
-        <testcase name="test_factory_create" file="/app/vendor/gammamatrix/playground-test/src/Feature/Models/ModelCase.php" line="541" class="Tests\Feature\Playground\Admin\Models\Setting\ModelTest" classname="Tests.Feature.Playground.Admin.Models.Setting.ModelTest" assertions="3" time="0.082454"/>
+      <testsuite name="Tests\Feature\Playground\Admin\Models\Setting\ModelTest" file="/app/tests/Feature/Models/Setting/ModelTest.php" tests="3" assertions="28" errors="0" failures="0" skipped="0" time="0.343759">
+        <testcase name="test_model_instance" file="/app/vendor/gammamatrix/playground-test/src/Feature/Models/ModelCase.php" line="106" class="Tests\Feature\Playground\Admin\Models\Setting\ModelTest" classname="Tests.Feature.Playground.Admin.Models.Setting.ModelTest" assertions="1" time="0.087797"/>
+        <testcase name="test_verify_model_relationships" file="/app/vendor/gammamatrix/playground-test/src/Feature/Models/ModelCase.php" line="525" class="Tests\Feature\Playground\Admin\Models\Setting\ModelTest" classname="Tests.Feature.Playground.Admin.Models.Setting.ModelTest" assertions="24" time="0.169808"/>
+        <testcase name="test_factory_create" file="/app/vendor/gammamatrix/playground-test/src/Feature/Models/ModelCase.php" line="541" class="Tests\Feature\Playground\Admin\Models\Setting\ModelTest" classname="Tests.Feature.Playground.Admin.Models.Setting.ModelTest" assertions="3" time="0.086154"/>
       </testsuite>
     </testsuite>
   </testsuite>
