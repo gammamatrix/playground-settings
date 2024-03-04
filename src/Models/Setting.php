@@ -63,6 +63,7 @@ class Setting extends Model
         'meta' => '{}',
         'notes' => '[]',
         'options' => '{}',
+        'setting' => '{}',
         'sources' => '{}',
     ];
 
@@ -110,6 +111,7 @@ class Setting extends Model
         'meta' => 'array',
         'notes' => 'array',
         'options' => 'array',
+        'setting' => 'array',
         'sources' => 'array',
     ];
 
@@ -157,6 +159,7 @@ class Setting extends Model
         'assets',
         'meta',
         'options',
+        'setting',
         'sources',
     ];
 }
