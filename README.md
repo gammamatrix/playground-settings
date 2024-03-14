@@ -4,9 +4,11 @@
 [![Test Coverage](https://raw.githubusercontent.com/gammamatrix/playground-admin/testing/develop/coverage.svg)](tests)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-level%209-brightgreen)](.github/workflows/ci.yml#L120)
 
-The Playground Admin is a package for [Laravel](https://laravel.com/docs/10.x) applications.
+The Playground Admin is a package for [Laravel](https://laravel.com/docs/11.x) applications.
 
 This application provides the models to use Playground Admin, a site administration tool.
+
+Read more on using Playground Admin [at the Read the Docs for Playground.](https://gammamatrix-playground.readthedocs.io/)
 
 ## Installation
 
