@@ -39,6 +39,17 @@ class Setting extends Model
         'status' => 0,
         'rank' => 0,
         'size' => 0,
+        'matrix' => '',
+        'x' => null,
+        'y' => null,
+        'z' => null,
+        'r' => null,
+        'theta' => null,
+        'rho' => null,
+        'phi' => null,
+        'elevation' => null,
+        'latitude' => null,
+        'longitude' => null,
         'active' => true,
         'encrypted' => false,
         'flagged' => false,
@@ -70,54 +81,6 @@ class Setting extends Model
     ];
 
     /**
-     * The attributes that should be cast.
-     *
-     * @var array<string, string>
-     */
-    protected $casts = [
-        'created_at' => 'datetime',
-        'updated_at' => 'datetime',
-        'deleted_at' => 'datetime',
-        'resolved_at' => 'datetime',
-        'suspended_at' => 'datetime',
-        'gids' => 'integer',
-        'po' => 'integer',
-        'pg' => 'integer',
-        'pw' => 'integer',
-        'status' => 'integer',
-        'rank' => 'integer',
-        'size' => 'integer',
-        'active' => 'boolean',
-        'encrypted' => 'boolean',
-        'flagged' => 'boolean',
-        'internal' => 'boolean',
-        'locked' => 'boolean',
-        'problem' => 'boolean',
-        'secure' => 'boolean',
-        'suspended' => 'boolean',
-        'unknown' => 'boolean',
-        'label' => 'string',
-        'title' => 'string',
-        'byline' => 'string',
-        'slug' => 'string',
-        'url' => 'string',
-        'description' => 'string',
-        'introduction' => 'string',
-        'content' => 'string',
-        'summary' => 'string',
-        'icon' => 'string',
-        'image' => 'string',
-        'avatar' => 'string',
-        'ui' => 'array',
-        'assets' => 'array',
-        'meta' => 'array',
-        'notes' => 'array',
-        'options' => 'array',
-        'setting' => 'array',
-        'sources' => 'array',
-    ];
-
-    /**
      * The attributes that are mass assignable.
      *
      * @var array<int, string>
@@ -136,6 +99,17 @@ class Setting extends Model
         'status',
         'rank',
         'size',
+        'matrix',
+        'x',
+        'y',
+        'z',
+        'r',
+        'theta',
+        'rho',
+        'phi',
+        'elevation',
+        'latitude',
+        'longitude',
         'active',
         'encrypted',
         'flagged',
@@ -164,4 +138,66 @@ class Setting extends Model
         'setting',
         'sources',
     ];
+
+    /**
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
+     */
+    protected function casts(): array
+    {
+        return [
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+            'resolved_at' => 'datetime',
+            'suspended_at' => 'datetime',
+            'gids' => 'integer',
+            'po' => 'integer',
+            'pg' => 'integer',
+            'pw' => 'integer',
+            'status' => 'integer',
+            'rank' => 'integer',
+            'size' => 'integer',
+            'matrix' => 'string',
+            'x' => 'integer',
+            'y' => 'integer',
+            'z' => 'integer',
+            'r' => 'float',
+            'theta' => 'float',
+            'rho' => 'float',
+            'phi' => 'float',
+            'elevation' => 'float',
+            'latitude' => 'float',
+            'longitude' => 'float',
+            'active' => 'boolean',
+            'encrypted' => 'boolean',
+            'flagged' => 'boolean',
+            'internal' => 'boolean',
+            'locked' => 'boolean',
+            'problem' => 'boolean',
+            'secure' => 'boolean',
+            'suspended' => 'boolean',
+            'unknown' => 'boolean',
+            'label' => 'string',
+            'title' => 'string',
+            'byline' => 'string',
+            'slug' => 'string',
+            'url' => 'string',
+            'description' => 'string',
+            'introduction' => 'string',
+            'content' => 'string',
+            'summary' => 'string',
+            'icon' => 'string',
+            'image' => 'string',
+            'avatar' => 'string',
+            'ui' => 'array',
+            'assets' => 'array',
+            'meta' => 'array',
+            'notes' => 'array',
+            'options' => 'array',
+            'setting' => 'array',
+            'sources' => 'array',
+        ];
+    }
 }

@@ -8,7 +8,7 @@ The Playground Admin is a package for [Laravel](https://laravel.com/docs/11.x) a
 
 This application provides the models to use Playground Admin, a site administration tool.
 
-Read more on using Playground Admin [at the Read the Docs for Playground.](https://gammamatrix-playground.readthedocs.io/)
+Read more on using [Playground Admin at Read the Docs: Playground Documentation.](https://gammamatrix-playground.readthedocs.io/en/develop/components/admin.html)
 
 ## Installation
 
