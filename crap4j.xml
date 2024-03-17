@@ -1,24 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2024-03-14 05:47:02</timestamp>
+  <timestamp>2024-03-17 07:55:23</timestamp>
   <stats>
     <name>Method Crap Stats</name>
-    <methodCount>5</methodCount>
+    <methodCount>6</methodCount>
     <crapMethodCount>0</crapMethodCount>
     <crapLoad>0</crapLoad>
-    <totalCrap>14</totalCrap>
+    <totalCrap>16</totalCrap>
     <crapMethodPercent>0</crapMethodPercent>
   </stats>
   <methods>
+    <method>
+      <package>Playground\Admin\Models</package>
+      <className>Playground\Admin\Models\Setting</className>
+      <methodName>casts</methodName>
+      <methodSignature>casts(): array</methodSignature>
+      <fullMethod>casts(): array</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
     <method>
       <package>Playground\Admin</package>
       <className>Playground\Admin\ServiceProvider</className>
       <methodName>boot</methodName>
       <methodSignature>boot()</methodSignature>
       <fullMethod>boot()</fullMethod>
-      <crap>5</crap>
-      <complexity>5</complexity>
+      <crap>6</crap>
+      <complexity>6</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
