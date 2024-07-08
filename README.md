@@ -52,7 +52,7 @@ This package includes [factories](database/factories), models and [migrations](d
 All migrations are disabled by default.
 
 See the contents of the published config file: [database/migrations](database/migrations)
-- NOTE: There are 15 tables that will be created, they do have indexes and unique constraints defined; however, this release does not have the foreign key constraint migrations included at this time.
+- NOTE: There is 1 table that will be created.
 
 You can publish the migrations file with:
 ```bash
@@ -66,7 +66,25 @@ composer cloc
 ```
 
 ```
+➜  playground-admin git:(develop) composer cloc
+> cloc --exclude-dir=output,vendor .
+      30 text files.
+      22 unique files.
+       9 files ignored.
 
+github.com/AlDanial/cloc v 1.98  T=0.04 s (492.7 files/s, 37173.0 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+PHP                             14            103            153            708
+YAML                             1              5              0            275
+XML                              3              0              3            222
+JSON                             1              0              0             68
+Markdown                         2             39              1             68
+INI                              1              3              0             12
+-------------------------------------------------------------------------------
+SUM:                            22            150            157           1353
+-------------------------------------------------------------------------------
 ```
 
 ## PHPStan
