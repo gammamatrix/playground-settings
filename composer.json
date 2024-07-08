@@ -23,6 +23,10 @@
     "require-dev": {
         "gammamatrix/playground-test": "dev-develop|dev-master|dev-feature/*|^73.0@dev|^73.0"
     },
+    "suggest": {
+        "gammamatrix/playground-admin-api": "Provides an API, without a UI, to interact with the models provided in this package.",
+        "gammamatrix/playground-admin-resource": "Provides a resource API and optional Blade UI to interact with the models provided in this package."
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
@@ -56,8 +60,9 @@
         }
     },
     "scripts": {
-        "test": "vendor/bin/phpunit",
+        "analyse": "vendor/bin/phpstan analyse --verbose --debug --level max",
+        "cloc": "cloc --exclude-dir=output,vendor .",
         "format": "vendor/bin/php-cs-fixer fix",
-        "analyse": "vendor/bin/phpstan analyse --verbose --debug --level max"
+        "test": "vendor/bin/phpunit"
     }
 }

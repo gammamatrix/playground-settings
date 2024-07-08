@@ -1,9 +1,9 @@
 <?php
-
-declare(strict_types=1);
 /**
  * Playground
  */
+
+declare(strict_types=1);
 namespace Database\Factories\Playground\Admin\Models;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -44,6 +44,9 @@ class SettingFactory extends Factory
         ];
     }
 
+    /**
+     * @return Factory<Setting>
+     */
     public function locked(): Factory
     {
         return $this->state(fn (array $attributes) => [
@@ -51,6 +54,9 @@ class SettingFactory extends Factory
         ]);
     }
 
+    /**
+     * @return Factory<Setting>
+     */
     public function published(): Factory
     {
         return $this->state(fn (array $attributes) => [

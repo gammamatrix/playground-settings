@@ -4,16 +4,16 @@
  */
 
 declare(strict_types=1);
-namespace Tests\Feature\Playground\Admin\Models;
+namespace Tests\Feature\Playground\Admin;
 
 use Illuminate\Foundation\Testing\DatabaseTransactions;
-use Playground\Test\Feature\Models\ModelCase as BaseModelCase;
+use Playground\Test\OrchestraTestCase;
 use Tests\Unit\Playground\Admin\PackageProviders;
 
 /**
- * \Tests\Feature\Playground\Admin\Models\ModelCase
+ * \Tests\Feature\Playground\Admin\TestCase
  */
-class ModelCase extends BaseModelCase
+class TestCase extends OrchestraTestCase
 {
     use DatabaseTransactions;
     use PackageProviders;
@@ -26,5 +26,5 @@ class ModelCase extends BaseModelCase
 
     protected bool $load_migrations_playground = true;
 
-    protected bool $setUpUserForPlayground = true;
+    protected bool $setUpUserForPlayground = false;
 }

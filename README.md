@@ -59,6 +59,16 @@ You can publish the migrations file with:
 php artisan vendor:publish --provider="Playground\Admin\ServiceProvider" --tag="playground-migrations"
 ```
 
+## Cloc
+
+```sh
+composer cloc
+```
+
+```
+
+```
+
 ## PHPStan
 
 Tests at level 9 on:
